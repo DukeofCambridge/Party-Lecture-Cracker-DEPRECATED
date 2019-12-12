@@ -1,6 +1,6 @@
 var dict={};
 for(var i = 0; i < localStorage.length; i++) {
-    var key = localStorage.key(i); //获取本地存储的Key
+    var key = localStorage.key(i); 
     if(key[1]==='_'){
         var myJson = JSON.parse(localStorage.getItem(key));
         var q_id = myJson["question_id"];
