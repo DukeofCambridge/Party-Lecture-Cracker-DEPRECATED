@@ -26,7 +26,9 @@ for(var i=0; i < question_list.length; i++){
 }
 //console.log(answer_list);
 localStorage.answer_record=answer_list;
+
 //可以只复制以上的部分执行后手动点提交，效果相同。
+
 var url = "https://rdjy.tongji.edu.cn/jjfz/lesson/exam/submit";
 var _xsrf = document.getElementsByName("_xsrf")[0].value;
 var rawText = document.getElementsByTagName('html')[0].innerHTML;
